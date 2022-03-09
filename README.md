@@ -4,7 +4,13 @@ Use classification to forecast the convertion of opportunity for multiple produc
 
 Tip: If you don't have markdown viewer like atom, you can render this on chrome by following [this link](https://imagecomputing.net/damien.rohmer/teaching/general/markdown_viewer/index.html).
 
-# Pre-requisites
+# Folder Placement (Important)
+
+- Before Running the notebooks, place the whole repository folder inside the "classification-py/notebooks" folder, in the [code-template](https://drive.google.com/file/d/1Rirm-K-U-RZkHldSof26bwylaaCqIl4D/view?usp=sharing).
+- Make sure to add the data to the data folder in CT, based on the configuration files provided.
+- Few cells take time to run as they will be generating reports in the working directory.
+
+# Pre-requisites for Code Templates
 
 * Ensure you have `Miniconda` installed and can be run from your shell. If not, download the installer for your platform here: https://docs.conda.io/en/latest/miniconda.html
 
@@ -33,7 +39,7 @@ Tip: If you don't have markdown viewer like atom, you can render this on chrome 
 (base):~$ pip install pyyaml
 ```
 
-# Getting started
+# Getting started with Code Templates
 
 * Switch to the root folder (i.e. folder containing this file)
 * A collection of workflow automation tasks can be seen as follows
@@ -54,7 +60,7 @@ Tip: If you don't have markdown viewer like atom, you can render this on chrome 
 and check no error messages (`Error: ...`) are printed.
 
 
-## Environment setup:
+## Environment setup for Code Templates:
 
 ### Introduction
 * Environment is divided into two sections
